@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class= "page-title">
+  <div class= "page-title-text hidden-xs"> Projects | 計画 </div>
+  <div class= "page-title-text-mb visible-xs"> Projects </div>
+  <div class= "page-title-text-mb visible-xs mtm"> 計画 </div>
+</div>
+<div class= "content-container">
+  <div class= "content">
+      
+
+    <h1 class='hidden-xs'>RevolvingChore</h1>
+    <h1 class='visible-xs' style='font-size:26px;'>RevolvingChore</h1>
+
+    <p>RevolvingChore is a fun Ruby on Rails application that a few of my friends and I made. It is a chore chart generator, tracker, analyzer, and enforcer all-in-one. The idea first came when we realized that a printed out chore chart taped to the refrigerator just wasn't cutting it for a house full of 6 guys.
+    </p>
+
+    <p>
+    How it works is a user logs in via Facebook, creates a group, invites members, and then creates chores. RevolvingChore then automatically generates and cycles through (via CRON script) a chore chart and calendar while also intelligently assigning chores to each member without repeats. Moreover, chore completion is tracked and beautifully animated graphs (via ChartJS, a Javascript/HTML graphing library) display useful analytics like how often a group member completes a chore, chore completion rates, chore completion quality rates, etc... However, my favorite part of the application is the chore enforcement feature. When a user does not complete a chore, a customizable penalty message is posted on offender's facebook wall (ex. "I did not do my chore because I am a TERRIBLE SLACKER!!!"). Accountability through public shaming! And of course other feautres like chore trading, chore rating, etc... are included in the application as well.  
+    </p>
+
+    <p>
+    This app is running on a VPS with an Nginx, Thin, and PostgreSQL backend while using Capistrano for deployment. From time to time whenever we are available, my friends and I still contribute bug fixes and new features to the app. If you have some time to spare (and some messy roommates), feel free to check it out. <a href="http://revolvingchore.com" target="_blank">revolvingchore.com</a>
+    </p>
+
+    <h1 class='hidden-xs'>EvidencedBasedLiving</h1>
+    <h1 class='visible-xs' style='font-size:26px;'>EvidencedBasedLiving</h1>
+
+    <p>EvidencedBasedLiving is a Habit Tracker and Mindfulness Tutor web application developed at the Department of Psychological & Brain Sciences at the University of California Santa Barbara. I am an active contributor and have been a member of the development team since August 2013</p>
+
+    <p>
+    The app is broken up into two sections the Habit Tracker and Mindfulness Tutor. For example, the Mindfulness Tutor encourages meditative thinking and mindfulness by tracking and analyzing user awareness across meditation sessions or text messages. During a meditation session, the user is asked to clear their mind while focusing only on his/her breath and awareness. Periodically a chime rings, prompting the user to press the keyboard/touchscreen if they were aware and not distracted at that moment. Also, mindfulness is encouraged via text messages. Throughout the day, text messages are sent to the user asking if they were mindful or not at that moment. As a result, over the course of multiple sessions and text messages, user mindfulness/awareness is fostered and progress is tracked, analyzed, and graphed. 
+    </p>
+
+    <p>This application is a Ruby on Rails-based app, using sqlite3 for the database and <a href="http://www.twilio.com/" target="_blank">twilio</a> for the text messaging service.
+    </p>
+
+  </div>
+</div>
